@@ -1,0 +1,169 @@
+body {
+    font-family: 'Arimo', sans-serif;
+}
+
+.container {
+    width: 1141px;
+    background-color: #374765;
+    padding: 30px;
+}
+
+.price-table-header {
+    background-color: #fafafa;
+}
+
+.price-table th {
+    box-shadow: inset 5px 0 5px -5px rgba(0,0,0,0.27);
+}
+
+.price-table td {
+    padding-top: 25px ;
+    padding-bottom: 25px;
+    width: 277px;
+    text-align: center;
+    color: #484848;
+    text-transform: uppercase;
+    box-shadow: inset 5px 0 5px -5px rgba(0,0,0,0.27);
+}
+
+.price-table-body-row:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.price-table-body-row:nth-child(even) {
+    background-color: #e3e3e3;
+}
+
+.top-left-cell {
+    color: #484848;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 310px;
+}
+
+.top-left-cell-small-text {
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+.top-left-cell-big-text {
+    font-size: 30px;
+}
+
+.pricing-plan-cell {
+    color: #ffffff;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    vertical-align: top;
+}
+
+.standard-pricing-plan {
+    background-color: #89c331;
+    font-size: 24px;
+}
+
+.ultimate-pricing-plan {
+    background-color: #f04a56;
+    font-size: 30px;
+}
+
+.premium-pricing-plan {
+    background-color: #20807c;
+    font-size: 24px;
+}
+
+.price {
+    padding: 18px 33px 0px 33px;
+    text-transform: uppercase;
+    color: #484848;
+    text-align: left;
+}
+
+.price-big-text {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.price-small-text {
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+    left: 98px;
+    bottom: 55px;
+}
+
+.price-big-text::after {
+    content: "per month";
+    font-size: 18px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+tbody .fas, tbody .far {
+    display: inline-block;
+    color: #848484;
+    margin-right: 12px;
+    font-size: 24px;
+}
+
+.table-footer {
+    background-color: #f2f2f2;
+}
+
+.footer-button {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    padding-top: 19px;
+    padding-bottom: 17px;
+    box-sizing: border-box;
+    width: 192px;
+}
+
+.contact-us-button {
+    background-color: #464646;
+    box-shadow: 0 7px 0 #404040;
+}
+
+.contact-us-button:hover {
+    box-shadow: 5px -5px 0 #737373;
+}
+
+.footer-green-button {
+    background-color: #8ac42d;
+    box-shadow: 0 7px 0 #79b027;
+}
+
+.footer-green-button:hover {
+    box-shadow: 5px -5px 0 #b3de6e;
+}
+
+.footer-pink-button {
+    background-color: #f04a56;
+    box-shadow: 0 7px 0 #df3a46;
+}
+
+.footer-pink-button:hover {
+    box-shadow: 5px -5px 0 #f7a1a6;
+}
+
+.footer-turquoise-button {
+    background-color: #20807c;
+    box-shadow: 0 7px 0 #16736f;
+}
+
+.footer-turquoise-button:hover {
+    box-shadow: 5px -5px 0 #2eb8b3;
+}
+
+.table-footer td:first-child {
+    background-color: #dedede;
+}
+
+.table-footer td:last-child {
+    background-color: #efefef;
+}
