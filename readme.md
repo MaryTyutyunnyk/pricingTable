@@ -1,3 +1,5 @@
+You can see the finished project here - https://marytyutyunnyk.github.io/pricingTable/
+
 Task: Make the HTML page from the PSD layout. 
 
 Technical requirements:
