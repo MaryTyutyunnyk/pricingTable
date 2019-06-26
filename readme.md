@@ -1,6 +1,6 @@
-You can see the finished project here - https://marytyutyunnyk.github.io/pricingTable/
+Pricing table. Stack: HTML5, CSS3.
 
-Parallax theme. Stack: HTML5, CSS3, Flexbox CSS, Parallax.
+Watch demo - https://marytyutyunnyk.github.io/pricingTable/
 
 Task: Make the HTML page from the PSD layout. 
 
